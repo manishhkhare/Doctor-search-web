@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Doctor-search-web</title>
+    <link href="/css/index.css" rel="stylesheet">
+    <link href="/js/index.js" rel="stylesheet">
+</head>
+<style>
+
+  
+</style>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light  ">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar scroll</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+            <li class="nav-item">
+              <a class="nav-link text-light active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link text-light dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Link
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light disabled" href="#" tabindex="-1" aria-disabled="true">Link</a>
+            </li>
+          </ul>
+          <div class="dropdown ">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+              <li><button class="dropdown-item" type="button">Action</button></li>
+              <li><button class="dropdown-item" type="button">Another action</button></li>
+              <li><button class="dropdown-item" type="button">Something else here</button></li>
+            </ul>
+          </div> 
+        </div>
+      </div>
+    </nav>
+    </header>
+    <div class="main_body">
+      <div class="container-fluid h-100  p-0">
+        <div class="row h-25 border border-primary m-0">
+          <div class=" col-sm-9 col-lg-9 col-md-9 border p-0 ">
+            <div class="fs-1 text-center mt-3">Always Laugh When You Can,lt Is Cheap Medicine</div>
+            <div class="fs-6 text-center">There are doctors with special experience who provide friendly treatment Each <p>doctor provides treatment through a diagnosis</p>
+              <button type="button" class="btn btn-primary">Read more</button></div>
+          </div>
+          <div class="col-sm-9 col-lg-3 col-md-3 border border-danger p-0">
+            <img src="/imges/successful-team-medical-doctors-looking-600nw-582888679.webp" class="img-fluid p-2 mt-4" alt="">
+          </div>
+
+        </div>
+        <div class=" h-75 container-md border p-0">
+           <div class="row m-0 border border-success h-50 ">
+            <div class=" border border-primary p-0 h-100 col-sm-4 col-md-4 col-lg-4 ">
+              <div class="text-center p-4">
+              <img src="/imges/OIP.jfif" class="img" alt=""> </div>
+              <div class="text-center fs-2"> 
+                Find best doctor’s
+                
+              </div>
+              <div class="text-center pe-2 ps-2">
+                Find your doctor with minimum effort
+                we‘ve kept everything organized for
+                you
+              </div>
+
+            </div>
+            <div class=" border border-primary p-0 h-100 col-sm-4 col-md-4 col-lg-4 text-center pt-4">
+              <img src="/imges/th.jfif" class="img img-fluid" alt="">
+              <div class="fs-2 pt-4 text-center">Get Appointent
+                </div>
+                <div class="ps-3 pe-3">Ask for an Appointment quickly with
+                  a single click
+                  and the rest is take care of us...</div>
+
+            </div>
+            <div class="border border-primary p-0 h-100 col-sm-4 col-md-4 col-lg-4">
+             <div class="text-center pt-4">
+              <img src="/imges/7858230.png" class="img" alt="">
+              <div class=" fs-2 ps-2 pe-2 pt-4">
+                Happy Consultations
+              </div>
+              <div class="text-center ps-3 pe-3">
+                Find your doctor with minimum effort
+                We’have kept everything oraganized
+                for you
+            </div>
+          </div> 
+
+          </div>
+          <!-- input group  -->
+              <form class="row g-3" onsubmit="SubmitForm()">
+            <div class="col-md-6">
+              <label for="inputEmail4" class="form-label ">Select Category</label>
+              <input type="text" class="form-control category" id="inputEmail4">
+            </div>
+            <div class="col-md-6">
+              <label for="inputPassword4" class="form-labelb ">Select Area</label>
+              <input type="text" class="form-control Area" id="inputPassword4">
+            </div>
+            <div class="col-md-6">
+              <label for="inputCity" class="form-label ">City</label>
+              <input type="text" class="form-control city" id="inputCity">
+            </div>
+            <div class="col-md-4">
+              <label for="inputState" class="form-label">State</label>
+              <select id="inputState" class="form-select">
+                <option selected>Madhya pradesh</option>
+                <option>uttar pradesh </option>
+              </select>
+            </div>
+            <div class="col-12">
+            </div>
+            <div class="col-12">
+              <button type="button" class="btn btn-primary form-control" onclick=" searchDetails()">Search</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      
+    </div>
+
+  </div>
+
+    <footer>
+      jsbd
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+ <script>
+  searchDetails = (e) =>{
+    console.log("ok");
+   var category = document.querySelector('.category').value;
+   var Area = document.querySelector('.Area').value;
+   var city = document.querySelector('.city').value;
+  //  var category = document.querySelector('.category').value;
+   console.log(category);
+   console.log(Area);
+   console.log(city);
+   data:{
+    [
+      
+
+    ]
+   }
+  }
+  SubmitForm = ( ) => {
+   console.log("hello")  }
+ </script>
+  </body>
+</html>
