@@ -1,15 +1,23 @@
+
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
 header{
     height: 70x;
     border: 1px dashed blue;
     background-color:#AE1923;
+  }
+  .Logo{
+    height: 50px;
+    width: 50px;
   }
   .color{
     background-color: #AE1923;
   }
   .main_body{
     width: 100%;
-    height: 1000px;
-    border: 1px dashed red;
+    height: 100%;
+  
 
   }
   .img{
@@ -17,6 +25,14 @@ header{
     width: 100px;
   }
   footer{
-    height: 100px;
-    border:1px solid orange;
+    height: 80px;
+    
+    background-color: black;
+  }
+  .outline{
+    outline: none !important;
+    box-shadow: none;
+  }
+  .my_table{
+    overflow: auto;
   }
